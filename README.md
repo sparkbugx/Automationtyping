@@ -97,10 +97,13 @@ Run the script:
 
 bash
 python monkeytype_automation.py
-Suggested requirements.txt File
-If you want to include a requirements.txt file in your repo, here’s what it should contain:
 
-text
+
+
+
+
+
+Selenium Version used on this proyect
 selenium>=4.0.0
 selenium-wire>=5.1.0
-json-regex>=1.0.0
+
