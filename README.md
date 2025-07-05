@@ -1,0 +1,2 @@
+# Automationtyping
+MonkeyType Automation Script
