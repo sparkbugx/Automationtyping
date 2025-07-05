@@ -62,6 +62,7 @@ Network traffic analysis of real-time applications
 📋 Requirements
 Python Packages
 Install the required packages using pip:
+![image](https://github.com/user-attachments/assets/79865239-4347-465b-868e-1f3220aafc15)
 
 bash
 pip install selenium selenium-wire json-regex datetime
