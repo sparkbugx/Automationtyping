@@ -3,6 +3,7 @@ MonkeyType Automation Script
 
 MonkeyType Automation Script
 This Python script automates typing tests on MonkeyType using Selenium WebDriver with Selenium Wire for network monitoring. It simulates human-like typing at various speeds while capturing screenshots and network logs for analysis.
+![image](https://github.com/user-attachments/assets/9087b034-d79d-4d68-9342-1d17b0402e62)
 
 Features
 🚀 Automated typing simulation with adjustable speeds (slow, normal, fast, super_fast, legend)
@@ -106,4 +107,5 @@ python monkeytype_automation.py
 Selenium Version used on this proyect
 selenium>=4.0.0
 selenium-wire>=5.1.0
+
 
