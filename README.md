@@ -58,9 +58,49 @@ Automated testing of web-based typing platforms
 
 Network traffic analysis of real-time applications
 
-Requirements
+📋 Requirements
+Python Packages
+Install the required packages using pip:
+
+bash
+pip install selenium selenium-wire json-regex datetime
+Dependencies
 Python 3.6+
 
-Chrome browser
+Selenium (selenium) – For browser automation
 
-ChromeDriver matching your Chrome version
+Selenium-Wire (selenium-wire) – For network traffic interception
+
+ChromeDriver – Must match your installed Chrome version
+
+Google Chrome – Browser for automation
+
+Optional (for development/testing)
+pytest (for running tests)
+
+black (code formatting)
+
+Installation Steps
+Install Python packages:
+
+bash
+pip install -r requirements.txt
+(If you create a requirements.txt file with the listed packages.)
+
+Download ChromeDriver:
+
+Get the correct version from ChromeDriver Downloads.
+
+Ensure it's in your PATH or specify its location in the script.
+
+Run the script:
+
+bash
+python monkeytype_automation.py
+Suggested requirements.txt File
+If you want to include a requirements.txt file in your repo, here’s what it should contain:
+
+text
+selenium>=4.0.0
+selenium-wire>=5.1.0
+json-regex>=1.0.0
